@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.infotra"
+    android:background="#fcfcfc">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/codej"
+            app:contentScrim="@color/colorAccent"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="INFOTRA 2K18">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nEvent Description:
+\nComputers are some of the most versatile tools that we have available. They can perform stunning feats of computation, they allow information to be exchanged easily regardless of their physical location, they simplify many every-day tasks, and they allow us to automate many processes that would be tedious or boring to perform otherwise.
+\nOur event comprises of two rounds:
+\n•	Logical quiz (round 1):
+\nTwenty questions based on c-r-r and c programming. The questions would contain topics such as simple loops, GK(info on the language) and outputs. The given time would be 15 min.
+\n•	Debuqglnq  (round 2  and  round 3);
+\nRound two will comprise of 20 questions and the given time would be 15 min. Round three will comprise o1 10 questions and the given time would be 10 min.
+
+\nRules
+\n1.	Single participants are allowed
+\n2.	No use of mobile phones and internet is allowed
+\n3.	Solutions of the questions will be given once the time is up
+\n4.	No extra time would be provided
+\n5.	Proper instructions before the commencement of the event
+\n6.	In case of any discrepancy the decision of the event organiser will be final
+\nRequirements
+\n1.	Pen and Paper
+\n2.	Printouts (One question Paper would be given by us )
+\n3.	Stopwatch
+
+
+       "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.funk"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/codej"
+            app:contentScrim="@color/colorAccent"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="FUNK FROM JUNK">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nHave you ever thought Junk can also be useful ! Think and apply your  creativity to bamboozle others by making something unique and creative.
+
+Rules-
+\n1- Number of members in each team will not be more than 4 .
+\n2- Each team have only 30 min to select the junk useful to them .
+\n3- Each team will be given only 1hr. for making their product .
+\n4- If any team uses anything else except the material provided buy us that team will be disqualified .
+\n5- The best and most creative product will be chosen as winners ."      android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:scaleType="centerCrop"
+    android:gravity="center_vertical"
+
+    tools:context="com.metacog.pc.metacog2k18.fun_list1">
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/fun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        android:layout_margin="10dp"
+        app:button_icon="@drawable/fun"
+        app:button_icon_width="25dp"
+        app:button_icon_height="25dp"
+
+        app:hide_text="\t FUN TIME"
+
+        app:icon_button_color="#375dda"
+        app:expandable_area_color="#200cb7"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/flip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/flip"
+        app:button_icon_width="25dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t FLIP THE BOTTLE"
+
+        app:icon_button_color="#ff210d"
+        app:expandable_area_color="#ec5a11"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/trea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/treasurehunt_logo"
+        app:button_icon_width="25dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t TREASURE HUNT"
+
+        app:icon_button_color="#e7670c"
+        app:expandable_area_color="#ea820c"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/ring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        android:layout_margin="10dp"
+        app:button_icon="@drawable/coin_to_destination"
+        app:button_icon_width="25dp"
+        app:button_icon_height="40dp"
+        app:hide_text_size="4sp"
+
+        app:hide_text="\t RING TO DESTINATION"
+
+        app:icon_button_color="#effaef19"
+        app:expandable_area_color="#a6a419"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/making"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        android:layout_margin="10dp"
+        app:button_icon="@drawable/glass_pyramid"
+        app:button_icon_width="25dp"
+        app:button_icon_height="40dp"
+        app:hide_text="\t MAKING GLASS PYRAMID"
+        app:hide_text_size="4sp"
+        app:icon_button_color="#76e917"
+        app:expandable_area_color="#25ae34"/>
+
+</LinearLayout>

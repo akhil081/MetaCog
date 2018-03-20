@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.roboso"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/robosoccer"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="ROBO SOCCER">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nIntroduction-
+\nThis event is a platform for participants to showcase their robotics talents and also to bring alive the football spirit. They are required to build manually controlled bot capable of playing soccer on an arena specially designed for the robotic soccer match.
+\nEvent structure-
+\nIt is a two round event , first round will be the direct disqualification as only your bot would be checked on the given criterion.
+Max. two bots are allowed per team in which one plays as a keeper, while other one will play as a striker.
+Second round will be the direct completion with opponent and your performance will judge your position in the event.
+\nRules –
+\n•	Number of participants in a team can be up to 4.
+\n•	Each team must have a captain. The captain is the person responsible for communication with referees. Team is allowed to have only the fewest possible members beside the field during game play.
+\n•	Teams has to make their own robot. They can’t use other team’s robot.
+\n•	The bot must fit into a cube of (30x30x25)cm at all times. It may not expand at any time during the match beyond this size even for hitting the ball. Violating this clause will lead to immediate disqualification.
+\n•	The maximum potential difference between any two points on the bot should not exceed 24 volts.
+\n•	Grabbing the ball is not allowed. So bots should not have any kind of grabbing mechanisms.
+\n•	Robots that cause deliberate interference with other robots or damage to the field will be disqualified
+\n•	No harmful mechanism should be used, any violation should lead to direct disqualification.
+\n•	 Bot should not be more than 10 kg in weight.
+
+
+       "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

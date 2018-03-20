@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.pandora"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pandora_box"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="PANDORA BOX">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nDescription/Rules:
+\nSURPRISE SOFTWARE
+\nNumber of Participant(s): 2
+\nTime Alloted: 30 minutes + 1 hour 30 minutes
+\n•	The application/software to be used will be disclosed on the spot.
+\n•	The first half an hour is to be used for exploring the application/ software.
+\n•	The teams will be given a task related to that application/ software on the spot, which they will have to finish within the provided time.
+\n•	No request for grace-marking or change of application/software or the assignment shall be entertained.
+
+       "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

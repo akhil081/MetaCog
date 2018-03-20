@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:scaleType="centerCrop"
+    android:gravity="center_vertical"
+    tools:context="com.metacog.pc.metacog2k18.gamingList">
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/nfs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        android:layout_margin="10dp"
+        app:button_icon="@drawable/nfs"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t NFS"
+
+        app:icon_button_color="#375dda"
+        app:expandable_area_color="#200cb7"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/fifa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/fifa"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t FIFA"
+
+        app:icon_button_color="#ff210d"
+        app:expandable_area_color="#ec5a11"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/sudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/sudoku"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t SUDOKU"
+
+        app:icon_button_color="#e7670c"
+        app:expandable_area_color="#ea820c"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/exqu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        android:layout_margin="10dp"
+        app:button_icon="@drawable/quiz_me"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t EX-QUIZ ME"
+
+        app:icon_button_color="#375dda"
+        app:expandable_area_color="#200cb7"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/mini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/minimiletia"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t MINI-MILITIA"
+
+        app:icon_button_color="#ff210d"
+        app:expandable_area_color="#ec5a11"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/rubik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/rubi"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t RUBIK'S CUBE"
+
+        app:icon_button_color="#76e917"
+        app:expandable_area_color="#25ae34"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        android:layout_margin="10dp"
+        app:button_icon="@drawable/cs"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t COUNTER STRIKE"
+
+        app:icon_button_color="#effaef19"
+        app:expandable_area_color="#a6a419"/>
+
+
+
+</LinearLayout>

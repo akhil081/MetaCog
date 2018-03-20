@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.pointblank">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/point_blank"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="POINT BLANK">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Introduction:
+\nGrab this great opportunity to test your soft Skills in the virtual GD simulation. Strengthen your weaker points and make yourself placement ready!
+
+\nNumber of Participant(s): 5 (per round ; depends upon no of entries)
+
+\nTime Alloted: 2 mins + 5 mins per round
+
+\nThe topic for the GD will be disclosed on the spot.
+•\n The first 2 mins are meant for exploring the topic and quoting points on the paper provided.
+
+• Next the GD session begins which will take place after within the mentioned time limit.
+
+\nParticipants will be judged on various parameters such as :
+1. Interactive skills
+
+2. Leadership skills
+
+3. Flexibility
+
+4. Creativity
+
+5. Initiation
+
+6. Awareness
+
+7. Confidence
+
+\nEVENT STRUCTURE-
+• Participant/s will be selected for the final round which will be held on stage and will be witnessed live on social media on Metacog’s Fb page.
+
+• This activity would fullfil as a virtual GD round as practiced in an actual GD and will help students gain confidence before sitting in an real one.
+
+• The decision of judge would be final and binding .At any time the rules may be changed with the discretion of event Coordinator.
+
+• Use of cell phones, laptops or any other e-device resulting into unfairful means would result into permanent derbar from Event.
+
+       "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+

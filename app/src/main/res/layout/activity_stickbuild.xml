@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.stickbuild"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/stick_building"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="STICK BUILD">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nINTRODUCTION:
+Stick-Build is one of the most interesting and prominent event of metacognition 2k18. This event is basically for designing and building a structure with the raw materials provided. The event calls for teamwork, spontaneity and proper use of raw materials.  Event is open for all those who have a keen passion for building.
+
+\nEVENT STRUCTURE:
+\n● Sticks, limited amount of adhesive stuff and others will be provided.
+\n● Only provided materials are allowed to use.
+\n● Tallest building(according to no.of floors) has to be built in minimum base area within given time.
+\n● Height of each floor, base area, time of event and other required dimensions will be informed on the spot.
+\n● Participant’s designed model will be judged according to height of model, no. Of floors, base area and strength.
+
+\nRULES:
+\n● Team must consist minimum of 2 participants and maximum of 4.
+\n● Participants are allowed to use electronic gadgets if required.
+\n● The decision of judges shall be final and binding.
+\n● The rules can be changed by the coordinators at any point of time and accordingly    you will be informed.
+
+      "      android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

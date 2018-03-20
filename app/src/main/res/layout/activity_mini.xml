@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.mini"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/minimiletia"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="MINI MILITIA">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nIntroduction -
+\nMini Militia is a local Gaming Tournament which is one of the most played Android Games in the Country. If you think you have mastered in Mini Militia and are capable of those headshots and can easily tackle the mini world of Mini militia then showcase your talent .
+\nEVENT DESCRIPTION –
+\nMatch length- 10 min.
+\nMaps allowed- Catacomb, Outpost or No escape (any one)
+\nEach round consisted of 10 minutes.
+\nTop players would  proceed to the next round.
+
+\nTournament Rules:
+\n1. No mod, Pro-pack or cracked apk is allowed. Your current game in the phone will be uninstalled and game provided by us will be installed on the spot.
+\n2. There will be no rematch for the players whose device crashes or by any reason he exits from the match.
+\n3.Map for the match will be decided by voting.
+\n4. The Organizer has the right to disqualify any registered player from the tournament for any valid reason.
+\n5. Your phone should be fully charged.
+\n6. Everyone should coordinate with the coordinators.
+\nMatch length- 10 min
+\nMaps allowed- Catacomb, Outpost or No escape (any one)
+
+
+
+       "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

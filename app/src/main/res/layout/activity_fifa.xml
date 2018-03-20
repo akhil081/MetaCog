@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.fifa">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fifa"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="FIFA">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Controller Settings
+\nPlayers are responsible for ensuring that their controller configuration is correct at all times.
+
+\nMatch Settings
+\nAll matches are to be played using the following settings:
+\nGame Settings
+
+Game Type 1vs1 (knockouts)
+
+Half Length 6 Minutes
+
+Difficulty Level LEGENDARY
+
+Referee Random
+
+Time of Day Day
+
+Weather Dry
+
+Game Speed Normal
+
+Ball Default
+
+Rules
+Injuries Off
+
+Offsides On
+
+Bookings On
+
+Handball Off
+
+Restrictions
+
+\nTeam Restrictions
+• Players can use any club or national team.
+
+• Players cannot use any custom made teams (e.g. Classic XI).
+
+• Players can't swap teams at any point during the tournament.
+
+\nFormation Restrictions
+• Players can only use default formations.
+
+• Players cannot use custom formations.
+
+• Players can use custom tactics.
+
+Players have four (4) minutes to prepare their tactics at the start of a match. Subsequent changes are time limited to thirty (30) seconds per change.
+
+Players who start with four (4) players in defence and then go ahead or equalise in a game are not allowed to then immediately change their formation to five (5) in defence and lock down the game - this is against the spirit of the tournament.
+
+Etiquette and Forbidden Moves
+• Players must kick-off with a backward pass at the beginning of each half and after every goal.
+
+• Players are not allowed to score goals from within their own half.
+
+• No air balls and legacy defending will be allowed.
+
+• Players wishing to make substitutions or alter free-kick options must wait until the ball is out of play before making any changes.
+
+• Players must not pause the game when the ball is in play.
+
+• Players must not keep the ball in defence by passing it around (i.e. time wasting).
+
+• Players are not permitted to take control of the goalkeeper in order to make the AI take control of the defence.
+
+• Utilisation of game play aspects widely regarded as providing an unfair advantage or bad sportsmanship will not be tolerated. Any player found to be using these or unsporting behaviour will be removed from the tournament.
+       "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

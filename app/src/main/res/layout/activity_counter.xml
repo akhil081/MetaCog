@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.counter">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cs"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="COUNTER STRIKE">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Game Version:-
+COUNTER-STRIKE:- GLOBAL OFFENSIVE
+Game Type:
+Competitive
+
+Maps:-
+Dust2, Inferno, Nuke, Train, Mirage, Cobblestone, Overpass
+
+Guns Banned:-
+P90
+
+Mapchoice Qualifiers
+Best-of-One Matches
+In case of Best-of-One matches, both teams remove maps alternatively until one map is left which will be played. The team with the lower seeding has to start to remove the first map. A kniferound will be played to decide starting sides.
+
+Best-of-Three Matches
+In case of Best-of-Three matches, both teams remove one map alternatively, after that each team will pick one map. The team with the lower seeding has to start to remove the first map. To decide the last maps both teams once again remove one map alternatively, the last map will be used as third map if needed. A kniferound will be played to decide starting sides on all maps.
+
+Mapchoice Main Event
+Best-of-One Matches
+In case of Best-of-One matches, both teams remove maps alternatively until three maps are left. FRAG will then randomly pick one of the three remaining maps to be played. Better seed can decide who has to start the veto process. The team who started the veto can also pick the starting side on the map.
+
+Best-of-Three Matches
+In case of Best-of-Three matches, both teams remove one map alternatively, after that each team will pick one map. FRAG will then randomly pick one of the three remaining maps to be played as third map. Better seed can decide who has to start the veto/pick process. A team can always pick the starting side on the map of the opponent, if needed a coin toss will decide who can pick the starting side on the third map.
+
+Number of Players
+All matches have to be played with five players per team (5vs5), other constellations are not allowed. If a team fails to show up with enough players, the match will count as no-show and will be forfeited.
+
+Dropping of Players
+If a player drops before the first kill in the first round of a half, then the half will be restarted. If a player drops after the first kill have been made and has not returned when the round have been decided, then the match will be paused at the end of the round/start of the next round. If the player have not returned, or cannot be replaced within 10 minutes after the pause has started, then the team with the dropped player may forfeit the match at admins discretion.
+
+Change of Players
+Players can be changed at any time but the opposing team has to be informed in advance. If necessary the game can be paused (see rule Usage of Pause function). This change may not take more than 5 minutes. If the player have not joined, or cannot be replaced within 5 minutes after the pause has started, then the team with the dropped player may forfeit the match at admins discretion.
+
+Leaving the Server
+All matches must be played to the end, failure to do so will be penalized. A match is considered complete when one team has reached 16 rounds on the final map.
+
+Continuing a Disrupted Game
+If a match is interrupted (e.g. server crash) within the first three rounds of play, then the match should be restarted, if the match is interrupted after the first three rounds of play then the match should be continued where it left off, with these changes in the configuration. • mp_startmoney should be set to 5000 for the rest of the half • The rest of the rounds that have not been played should be played.
+
+However, if the match will be played on an official FRAG server the admin can decide to continue the match by using the backup files provided by the game instead of using the above mentioned way.
+
+Overtime
+In case of a draw after all 30 rounds have been played, an overtime will be played with mp_maxrounds 6 and mp_startmoney 10000. For the start of the overtime teams will stay on the side which they played the previous half on, during half-time sites will be swapped. Teams will continue to play overtimes until a winner has been found.
+
+Usage of pause function
+If a player has a problem that prevents him from playing on, he is allowed to use the pause function. The pause function has to be used at the beginning of the next round (during the freeze time). The player has to announce the reason before or immediately after he paused the match. If no reason is given, the opponent may unpause the game and continue playing. Unpausing or pausing the game without any reason will lead to penalty points
+       "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

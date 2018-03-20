@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.thefinal"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/codej"
+            app:contentScrim="@color/colorAccent"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="THE FINAL PROBLEM">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nCATCH LINE:\n 1 Room …1 exit….Put on your Sherlock hats and round up your
+Watsons to face the Final Problem.
+\nDESCRIPTION: \nFind your way out of the locked hall with nothing but your will and
+wits to take you through. The contestants must work hard to crack multiple puzzles,
+negotiating and speculating answers until they solve the ‘Final Problem.’
+NO. OF PARTICIPANTS: Group of 3 or 4
+\nRULES, REGULATIONS AND JUDGING CRITERIA:
+
+\n1. A team comprising of 3-4 members
+\n2. No external aids shall be permitted. No electronic devices will be allowed
+inside the room. The teams will be requested to deposit them outside the
+hall.
+\n3. Each team have 30/45 minutes to find the key to the door and ESCAPE.
+\n4. Team can ask for help 3 times during the game.
+\n5. Team which takes least time to ESCAPE will be adjudged the winner at the
+end of the day  "
+            android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

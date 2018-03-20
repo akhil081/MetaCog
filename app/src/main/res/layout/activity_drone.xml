@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.drone"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drone"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="DRONE RACING">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nIntro-
+\nThe industry is exploding with model aircraft, and multi-rotors are no exception. These fascinating drone combine the flight characteristics of both a plane and a helicopter. Amaze the audience with your drones and make this competition a great success with your performances.
+\nEvent structure-
+\nIt is a two round event in which judgement would be based on both your performance and time taken.
+First round will be only to check your flight capabilities in which you have to land and take-offs your drone multiple times in the structure of landing points provided.
+Second round is racing cum manoeuvre round, arena will be provided in with you have to perform under given consideration and rules. The one who perform best and took the least time will be selected as the winner.
+
+\nRules
+\n•	You should not lift the bot to improve your position.
+\n•	Any failed attempt at landing (touch to the ground), which do not get you a point will lead to the end of the round.
+\n•	RTF models will not be allowed.
+\n•	A team can use only one model throughout the event in all the rounds.
+\n•	The organisers reserve all rights to change any or all of the above rules.
+\n•	Each team must have its own model. Exchanging of models is not allowed.
+\n•	Each team can have a maximum of 6 participants.
+\n•	The maximum dimension between any two motor shafts of the vehicle should be lesser than 50 cm and greater than 25cm.
+\n•	You should bring your own tool kit and chargers, organizers are not bound to provide you to such.
+\n•	Power sockets may or may not be provided.
+
+       "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

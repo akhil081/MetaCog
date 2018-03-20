@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.robowar"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/roboassasin"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="ROBOWAR">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" \nIntro
+Design and build a robot(s), which can entertain us homo-sapiens! Just to clear the definition of NON-CONVENTIONAL ROBOT, ANY ROBOT that does something what you think is unique, is a non-conventional robot!
+\nGENERAL RULES
+\n▸The team can have a maximum of 5 members.
+\n▸Any team that is not ready at the time specified will be disqualified from the competition automatically.
+\n▸The judges’ decision shall be treated as final and binding on all.
+\n▸Change in rules, if any, will be highlighted on the website and notified to the registered participants.
+\n\nEvent Rules:
+\n▸A team would be disqualified if any part being used is found potentially dangerous.
+\n▸There is no time restriction while you set up the arena for your presentation.
+\n▸In case a robot stops working or the power supply gets disconnected, then a maximum of 2 interventions would be allowed to rectify the problem (the maximum time of such interventions should not exceed 1 minute; otherwise the time would counted under participation time) OR a single restart will be allowed.
+\n▸While the robot is performing no team member is allowed to enter the arena, unless there is a problem with the robot (as mentioned above).
+\n▸The robot(s) can be manual and/or autonomous.
+\n▸There is no restriction on size and weight of the robot (however, it must fit within the arena).
+\n▸It can be wired or wireless.
+\n▸The bot should not damage the arena or perform dangerous tasks in any manner.
+\n▸On-board power or external power supplies are allowed, with a restriction that voltage rating should not exceed 54 volts.
+
+      "      android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

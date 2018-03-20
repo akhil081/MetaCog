@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:contentDescription="@string/sponsor"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/spon_image"
+    android:scaleType="centerCrop"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/spon_image"
+    android:id="@+id/spon_text"
+    android:layout_marginTop="-15dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:background="@drawable/spon_work"
+    />
+
+</RelativeLayout>

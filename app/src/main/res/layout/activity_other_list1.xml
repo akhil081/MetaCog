@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:scaleType="centerCrop"
+    android:gravity="center_vertical"
+    tools:context="com.metacog.pc.metacog2k18.other_list1">
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/cross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        android:layout_margin="10dp"
+        app:button_icon="@drawable/crossbits"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t CROSSBITS"
+
+        app:icon_button_color="#375dda"
+        app:expandable_area_color="#200cb7"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/point_blank"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t POINT BLANK"
+
+        app:icon_button_color="#ff210d"
+        app:expandable_area_color="#ec5a11"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/circuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/sher"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t CIRCUIT-THON"
+
+        app:icon_button_color="#e7670c"
+        app:expandable_area_color="#ea820c"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/pandora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="50dp"
+        android:layout_margin="10dp"
+        app:button_icon="@drawable/pandora_box"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t PANDORA'S BOX"
+
+        app:icon_button_color="#375dda"
+        app:expandable_area_color="#200cb7"/>
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/funk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/sher"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+
+        app:hide_text="\t FUNK FROM JUNK"
+
+        app:icon_button_color="#ff210d"
+        app:expandable_area_color="#ec5a11"/>
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/thefinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/sher"
+        app:button_icon_width="38dp"
+        app:button_icon_height="40dp"
+        app:hide_text_size="4sp"
+        app:hide_text="\t THE FINAL PROBLEM"
+        app:icon_button_color="#e7670c"
+        app:expandable_area_color="#ea820c"/>
+</LinearLayout>

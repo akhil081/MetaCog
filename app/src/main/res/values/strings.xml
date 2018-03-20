@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MetaCognition</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="title_activity_location">Map</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="logo">Logo</string>
+    <string name="coding">Coding</string>
+    <string name="gaming">Gaming</string>
+    <string name="others">Others</string>
+    <string name="fun">Fun</string>
+    <string name="civil">Civil</string>
+    <string name="robotics">Robotics</string>
+    <string name="Registration">Registration</string>
+    <string name="Name">Name</string>
+    <string name="Email_ID">Email ID</string>
+    <string name="College">College</string>
+    <string name="Contact_Number">Contact Number</string>
+    <string name="Event_Name">Event Name</string>
+    <string name="Register">Register</string>
+
+</resources>

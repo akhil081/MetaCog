@@ -1,0 +1,115 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:id="@+id/top"
+        android:textColor="#363232"
+        android:textStyle="bold|italic"
+        android:text="@string/Registration"/>
+
+
+    <EditText
+        android:id="@+id/pName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="25dp"
+        android:hint="@string/Name"
+        android:inputType="textCapWords"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/pEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pName"
+        android:layout_marginTop="30dp"
+        android:hint="@string/Email_ID"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/pCollege"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/pEmail"
+        android:layout_below="@+id/pEmail"
+        android:layout_marginTop="30dp"
+        android:hint="@string/College"
+        android:inputType="textCapCharacters"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/pPhone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/pCollege"
+        android:layout_below="@+id/pCollege"
+        android:layout_marginTop="30dp"
+        android:hint="@string/Contact_Number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/pEvent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/pPhone"
+        android:hint="@string/Event_Name"
+        android:layout_marginTop="30dp"
+        android:inputType="none"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        tools:ignore="RtlCompat" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/send"
+        android:padding="10dp"
+        android:textColor="#363232"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/buttonstyle"
+        android:background="@drawable/circlebackgroundyellow"
+        android:text="@string/Register"
+        />
+</RelativeLayout>

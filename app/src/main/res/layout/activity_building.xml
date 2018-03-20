@@ -1,0 +1,73 @@
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.metacog.pc.metacog2k18.building"
+android:background="#fcfcfc">
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <android.support.design.widget.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/building_blocks"
+        app:contentScrim="#d21010"
+
+        app:expandedTitleMarginEnd="60dp"
+
+        app:expandedTitleMarginStart="48dp"
+        app:layout_scrollFlags="exitUntilCollapsed|scroll"
+        app:title="BUILDING BLOCK">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            app:layout_collapseMode="pin" />
+
+    </android.support.design.widget.CollapsingToolbarLayout>
+
+</android.support.design.widget.AppBarLayout>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="INTRODUCTION:-
+\nNecessity is the invention of mother. Artists and designers around the world have found all kinds of creative ways to give discarded and existing material new life. To demonstrate just how many new ways there are to build a structure we have to put together a list of 6 really awesome building material scrap.
+
+\nDESCRIPTION:-
+\nThe participants will be having a time slot of 2 minutes to build a building from the material given. The participants having the tallest building at the end of the game will win. Two members per team could put their efforts in the event.
+
+\nRULES:-
+\n• Time limit will be 2 minutes.
+
+\n• Only 1 attempt will be given to the candidate if the building falls .
+
+\n• Decision made by judges will be treated as will be final.
+
+\n• No extra material will be provided.
+
+\n• The one with tallest structure will win.
+
+\n• Any use of external force will result in the disqualification of candidate.
+
+\n• Violation of the above rules will result in the immediate disqualification of the candidate.
+
+
+
+       "     android:textStyle="bold"
+        android:textColor="#759"
+        android:textSize="15sp"
+        />
+</android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

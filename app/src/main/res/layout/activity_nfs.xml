@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.nfs">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/nfs"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="NFS">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Game Version: NFS Most Wanted 1.3
+\nGame Type: Circuit/Sprint
+\n• Participants Controllers, Steering Wheel allowed.
+
+• At the end of each match, players must maintain the final screens and receive confirmation from a referee.
+
+• Winning a race: The winner of a race is the first player to finish 1st in sprint or 3 laps of the circuit course and cross the finish line.
+
+• A participant will be informed about the exact time of their match when they report.
+
+• A participant has to report at the Venue with respect to the scheduled time table.
+
+• No participant shall be allowed to participate if he/she does not report to the organizing authority within their reporting time.
+
+• A participant might have to wait for a maximum of 2 hours before his/her round begins.
+
+• If a participant is found missing before the round then the opponent shall be awarded a walkover to the next round.
+
+• No participant shall be allowed to participate in a round after the round finished.
+
+• Only USB devices shall be allowed to be connected. NO PS2 devices allowed.
+
+• No headphones shall be provided. Please bring your own headphones if necessary.
+
+• Again a referee’s decision has to be accepted by the participants and no arguments shall be accepted.
+
+• Only USB Pen-Drive is allowed for copying setup files of GamePads. (NO CD-ROM Drive available).
+
+• If a gamer has registered in more than one game, then it’s up to the sole discretion of the committee to disqualify him/her from any of the games in case of a time clash.
+
+\nCar Settings:
+• Visual Upgrade allowed.
+
+• Part, Performance (Pro, Super Pro, Ultimate)allowed, Junkman not allowed.
+
+• Personal save files are NOT allowed.
+
+• Cars may be tuned before racing each course.
+
+\nGame Settings:
+Courses : Diamond, Dunwich Bay, Heritage Heights, Bay Bridge, East Park
+
+The Course selection may be changed prior to the tournament. Players will be informed of any such changes before the tournament.
+
+• Race Mode Options : Circuit/Sprint
+
+• Track Direction : Forward
+
+• LAPS : 3
+
+• N20 : On
+
+• Collision Detection : Off
+
+• Performance Matching : On
+
+• Min Num. Players : 2
+
+\nPlayer Options:
+• Game Moment Camera : Off
+
+• Car Damage : Off
+
+• Rearview Mirror: Player's own discretion
+
+• Units : Player’s own discretion
+
+\nBasic Round:
+• In this round sprint and circuit races will be played.
+
+• Four participants will be competing in this round. 3)
+
+• With this process 1 participant will be the winner after the race and will be advanced to next round.
+
+\nAdvance Rounds:
+• In these rounds there will be 1 race between each of the 4 participants.
+
+• Four participants will be competing in this round.
+
+• The race will be sprint or the circuit depending upon the stuation.
+
+• The participants winning the race will be in the semi final.
+
+• This process will be continued until we get top 16 participants.
+
+\nSemi Finals:
+• In semi finals there will be 2 races ammoung the 8 participants.
+
+• Eight participants will be competing in this round.
+
+• At the end of the race the participant standing in 1st and 2nd position will be qualified for the final round.
+
+\nFinals:
+• In finals there will be 1 race between participants.
+
+• Four participants will be competing in this round 3.
+
+• The loop for this race will be NFS World Loop.
+
+\nDisconnect:
+• Disconnection: Any disconnection of the connection between match players due to System, Network, PC, and/or Power problems/issues
+
+• Intentional Disconnection: Upon judgment by the referee, any offending player will be charged with a loss by forfeit
+
+• When any disconnection occurs:
+
+• If the disconnection is deemed to be unintentional by the referee, the match will be restarted. If any player does not agree to a match restart, that player will lose by default.
+
+\nPenalty for Unfair Play
+• Unfair play
+
+• Use of any cheat program
+
+• Intentional disconnection
+
+• Use of any settings exceeding standard and permitted settings
+
+• If the match is disrupted due to unnecessary chatting, the player may be given a warning or lose by default at the referee’s sole discretion.
+
+• Upon discovery of any player committing any violations regarded as unfair play, that player will be disqualified from the tournament.
+
+• During the course of any match, the operations staff and/or referee may determine other actions to be unfair play at any time.
+
+• Two warnings constitute being disqualified from the tournament.
+       "
+
+            android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+

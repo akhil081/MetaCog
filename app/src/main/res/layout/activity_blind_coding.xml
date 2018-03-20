@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.code_j"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blind_coding"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="BLIND CODING">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nSkills Required : C/C++ Programming Language
+Description : \n
+Level 1: (Time : 10 minutes)\n
+‌First 5 Minutes: THE SCREEN WOULD BE TURNED ON .
+Problem is Given to the participants and The participants have to type the solution code .
+
+‌\nLast 5 Minute:THE MONITOR IS TURNED OFF
+ \nThe Participants can  Continue solving the problem .
+The Candidates that fulfill the level 1 passing criteria (say at most 3 errors and 1 warning) will move to LEVEL 2
+________________________________________
+\nLevel 2 : (Time : 7 minutes)
+\nNew Coding problem is Given to the qualifying participants .
+‌THE SCREENS REMAINS OFF FOR 5 MINUTE  and The participants code the solution
+THE SCREEN IS TURNED ON FOR 30 SECONDS AND TURNED OFF
+‌Again the participants given 2 minute more to complete the solution code.
+The Candidates that fulfill the level 2 passing criteria (say at most 1 errors and 1 warning) will move to LEVEL 3
+________________________________________
+\nLevel 3 : The Final Round (Time : 5 Minutes)
+\nNote: NO USE OF BACKSPACE and MONITOR REMAINS OFF FOR ENTIRE 5 MINUTES
+‌Coding problem is Given to the qualifying participants and allowed to code solution. After 5 Minutes their code is compiled and the 3 candidate with no errors or least no of error and warning will be winners .
+___________________END_________________
+
+           " android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

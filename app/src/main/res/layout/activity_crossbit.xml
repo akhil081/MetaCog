@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.crossbit"
+    android:background="#fcfcfc">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/crossbits"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="CROSSBITS">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="\nDescription/Rules:
+\nNumber of Participant(s): 1
+\nTime Allotted: 1 Hour
+\n•	The crossword will be based on basic knowledge of software, hardware, IT buzzwords, acronyms, abbreviations, recent technological developments, eminent personalities, IT Companies etc.
+\n•	Solving the crossword will require out of the box thinking.
+\n•	The event will take place in two rounds:
+\nFirst Round:\n It will be a written round. A crossword will be provided to the participants which has to be filled in a span of one hour.
+\n•	6 teams will qualify for the finals.
+\nSecond Round: \nThis round will be held on stage. A crossword will be displayed on the screen and the round will progress in a quiz format.
+\n•	Skills Required: Basic knowledge of software, hardware, IT buzzwords, acronyms, abbreviations, recent technological developments, eminent personalities, IT Companies etc.
+
+\n●	The team scoring highest marks will win coupons, vouchers and price rewards.
+"
+            android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

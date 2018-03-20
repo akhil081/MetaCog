@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.metacog.pc.metacog2k18">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.metacog.pc.metacog2k18.MainActivity" />
+        <activity android:name="com.metacog.pc.metacog2k18.Sponsor" />
+        <activity
+            android:name="com.metacog.pc.metacog2k18.Register"
+            android:label="Registration" />
+        <activity android:name="com.metacog.pc.metacog2k18.Developer" />
+        <activity android:name="com.metacog.pc.metacog2k18.About" />
+        <activity android:name="com.metacog.pc.metacog2k18.codeList" />
+        <activity android:name="com.metacog.pc.metacog2k18.code_j" />
+        <activity android:name="com.metacog.pc.metacog2k18.esurf" />
+        <activity android:name="com.metacog.pc.metacog2k18.blind_coding" />
+        <activity android:name="com.metacog.pc.metacog2k18.roborace" />
+        <activity android:name="com.metacog.pc.metacog2k18.robowar" />
+        <activity android:name="com.metacog.pc.metacog2k18.sherlock" />
+        <activity android:name="com.metacog.pc.metacog2k18.rubics" />
+        <activity android:name="com.metacog.pc.metacog2k18.stickbuild" />
+        <activity android:name="com.metacog.pc.metacog2k18.techdesign" />
+        <activity android:name="com.metacog.pc.metacog2k18.making" />
+        <activity android:name="com.metacog.pc.metacog2k18.funk" />
+        <activity android:name="com.metacog.pc.metacog2k18.thefinal" />
+        <activity android:name="com.metacog.pc.metacog2k18.crossbit" />
+        <activity android:name="com.metacog.pc.metacog2k18.pandora" />
+        <activity android:name="com.metacog.pc.metacog2k18.drone" />
+        <activity android:name="com.metacog.pc.metacog2k18.roboso" />
+        <activity android:name="com.metacog.pc.metacog2k18.mini" />
+        <activity android:name="com.metacog.pc.metacog2k18.stick" />
+        <activity android:name="com.metacog.pc.metacog2k18.lfr" />
+        <activity android:name="com.metacog.pc.metacog2k18.infotra" />
+        <activity android:name="com.metacog.pc.metacog2k18.building" />
+        <activity android:name="com.metacog.pc.metacog2k18.civil_list1" />
+        <activity android:name="com.metacog.pc.metacog2k18.gamingList" />
+        <activity android:name="com.metacog.pc.metacog2k18.other_list1" />
+        <activity android:name="com.metacog.pc.metacog2k18.fun_list1" />
+        <activity android:name="com.metacog.pc.metacog2k18.robo_list1" />
+        <activity android:name="com.metacog.pc.metacog2k18.ring" />
+        <activity android:name="com.metacog.pc.metacog2k18.pointblank" />
+        <activity android:name="com.metacog.pc.metacog2k18.nfs" />
+        <activity android:name="com.metacog.pc.metacog2k18.fifa" />
+        <activity android:name="com.metacog.pc.metacog2k18.suduko" />
+        <activity android:name="com.metacog.pc.metacog2k18.ex" />
+        <activity android:name="com.metacog.pc.metacog2k18.counter" />
+        <activity android:name="com.metacog.pc.metacog2k18.treasure" />
+        <activity android:name="com.metacog.pc.metacog2k18.flip" />
+        <activity android:name="com.metacog.pc.metacog2k18.fun" />
+        <activity android:name="com.metacog.pc.metacog2k18.Events" />
+        <activity android:name="com.metacog.pc.metacog2k18.activities.ZGalleryActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.metacog.pc.metacog2k18.Location"
+            android:label="@string/title_activity_location" />
+        <activity android:name="com.metacog.pc.metacog2k18.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.metacog.pc.metacog2k18.circuit"></activity>
+    </application>
+
+</manifest>

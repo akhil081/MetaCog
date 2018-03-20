@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.ex">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/quiz_me"
+            app:contentScrim="#d21010"
+
+            app:expandedTitleMarginEnd="60dp"
+
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="EX QUIZ">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" Introduction
+Heared it right, quiz me, it is a platform where you can invest your knowledge. The education has graced us since it begin. So, if you are a book buff and a craze on it .Now a time come to take it as a challenge .Do you think you know it all? Do you consider yourself an expert in it? Come forward because it is a only platform where you can show how much you know and to prove yourself.
+
+EVENT STRUCTURE
+1. Each student will be given set of 30 multiple type questions.
+
+2. +1 marks will be allotted for each correct answer and no negative marking.
+
+3. 10 students will be selected according to minimum time taken.
+
+4. The selected team shall have to appear for the final round.
+
+5. In round 2 ,10 question will be ask in 100 seconds.
+
+6. One who give the maximum correct answer will be consider as winner.
+
+7. If in case same no. of questions attempt correct the master question will be ask.
+
+Rules
+1. Starting and ending time of paper should be written carefully.
+
+2. The participants shall not be allowed to use mobile or other electronic instruments.
+
+3. The question shall be in the form of single correct answer.
+
+4. Replacement of any participant is not allow.
+
+5. Students are not allow to flip the front side of sheet till not instructed.
+
+6. The decision of the quiz will not be subjected to change. "     android:textStyle="bold"
+            android:textColor="#759"
+            android:textSize="15sp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

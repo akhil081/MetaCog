@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metacog.pc.metacog2k18.Developer"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:onClick="ShowPopup2"
+        android:text="ARPIT"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:onClick="ShowPopup5"
+        android:text="TUSHAR"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:onClick="ShowPopup1"
+        android:text="RISHABH"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:onClick="ShowPopup3"
+        android:text="ADITYA"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:onClick="ShowPopup4"
+        android:text="AKBAR"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle"
+        android:onClick="ShowPopup"
+        android:text="SHUBHAM"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
+
